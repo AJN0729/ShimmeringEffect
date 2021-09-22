@@ -14,6 +14,16 @@ struct ContentView: View {
     }
 }
 
+struct ShimmeringText: View {
+    
+    var text: String
+    
+    var body: some View {
+        
+    }
+    
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
