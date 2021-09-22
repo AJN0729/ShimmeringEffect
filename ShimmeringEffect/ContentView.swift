@@ -20,6 +20,12 @@ struct ShimmeringText: View {
     
     var body: some View {
         
+        ZStack {
+            Text(text)
+                .font(.system(size:75, weight: .bold))
+                .foregroundColor(Color.white.opacity(0.25))
+        }
+        
     }
     
 }
